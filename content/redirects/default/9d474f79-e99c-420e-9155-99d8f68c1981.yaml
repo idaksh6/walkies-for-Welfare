@@ -1,0 +1,6 @@
+id: 9d474f79-e99c-420e-9155-99d8f68c1981
+enabled: true
+source: '/holiday-time-off/sick-leave-and-pay(.*)'
+destination: /special-leave/sick-leave-and-pay$1
+type: '301'
+match_type: regex

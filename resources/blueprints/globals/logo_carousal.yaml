@@ -1,0 +1,19 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: images
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Images
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          max_files: 4

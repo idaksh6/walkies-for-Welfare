@@ -1,0 +1,216 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: benefits_title
+        field:
+          type: text
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+          validate:
+            - required
+      -
+        handle: sub_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Sub Title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: content
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: Content
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          container: assets
+      -
+        handle: how_to_claim_benefits_button
+        field:
+          default: false
+          display: 'How to Claim Benefits Box'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: how_to_claim_this_benefit_heading
+        field:
+          input_type: text
+          antlers: false
+          default: 'How to claim this benefit'
+          display: 'How To Claim This Benefit Heading'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          if:
+            how_to_claim_benefits_button: 'equals 1'
+          always_save: true
+      -
+        handle: how_to_claim_this_benefit
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: 'How to claim this benefit'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          if:
+            how_to_claim_benefits_button: 'equals 1'
+      -
+        import: button
+      -
+        handle: end_date_for_benefit
+        field:
+          default: false
+          display: 'End Date For Benefit'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: benefit_end_date
+        field:
+          mode: single
+          time_enabled: false
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Benefit End Date'
+          type: date
+          icon: date
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: true
+          if:
+            end_date_for_benefit: 'equals 1'
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: set_as_featured
+        field:
+          default: false
+          display: 'Set as Featured'
+          type: toggle
+          icon: toggle
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: date
+        field:
+          type: date
+          required: true
+          validate:
+            - required
+      -
+        handle: category
+        field:
+          type: terms
+          taxonomies:
+            - category
+          display: Category
+          mode: select
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          max_items: 1
+          create: true
+  SEO:
+    display: SEO
+    fields:
+      -
+        handle: seo
+        field:
+          type: seo_pro
+          listable: false
+          display: SEO
+title: Benefit

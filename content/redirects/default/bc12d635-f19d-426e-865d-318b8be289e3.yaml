@@ -1,0 +1,6 @@
+id: bc12d635-f19d-426e-865d-318b8be289e3
+enabled: true
+source: '/money-finances/free-car-parking(.*)'
+destination: /transport/free-car-parking$1
+type: '301'
+match_type: regex

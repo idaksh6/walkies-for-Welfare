@@ -1,0 +1,6 @@
+id: 56774eb6-c774-4185-8723-857e4593e32c
+enabled: true
+source: '/holiday-time-off/your-leave-plus-1(.*)'
+destination: /special-leave/your-leave-plus-1$1
+type: '301'
+match_type: regex

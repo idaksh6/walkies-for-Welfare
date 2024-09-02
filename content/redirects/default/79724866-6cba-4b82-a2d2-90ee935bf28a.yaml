@@ -1,0 +1,6 @@
+id: 79724866-6cba-4b82-a2d2-90ee935bf28a
+enabled: true
+source: '/test/ask-bill(.*)'
+destination: /money-finances/ask-bill$1
+type: '301'
+match_type: regex

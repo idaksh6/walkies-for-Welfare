@@ -1,0 +1,28 @@
+name: Rachel
+roles:
+  - admin
+id: 1f92e3a1-bb30-42a3-892b-068b9cfdf8f9
+password_hash: $2y$10$Fm/ktypPdjYIylZX3kXmX.IOuTOTW5mLnFpVIH.GSEvk6PsdJA91i
+preferences:
+  collections:
+    benefits:
+      columns:
+        - title
+        - category
+        - sub_title
+      after_save: continue_editing
+  taxonomies:
+    category:
+      columns:
+        - order
+        - title
+        - description
+  assets:
+    assets:
+      mode: grid
+  forms:
+    signup_form:
+      columns:
+        - datestamp
+        - name
+        - email

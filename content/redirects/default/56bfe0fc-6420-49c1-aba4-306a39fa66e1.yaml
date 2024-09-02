@@ -1,0 +1,6 @@
+id: 56bfe0fc-6420-49c1-aba4-306a39fa66e1
+enabled: true
+source: '/special-leave/pregnancy-loss-leave-1(.*)'
+destination: /family/pregnancy-loss-leave-1$1
+type: '301'
+match_type: regex

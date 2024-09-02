@@ -1,0 +1,26 @@
+title: 'Page Sections'
+fields:
+  -
+    handle: page_sections
+    field:
+      collapse: false
+      previews: true
+      sets:
+        main:
+          display: Main
+          instructions: null
+          icon: null
+          sets:
+            new_set:
+              display: 'New Set'
+              instructions: null
+              icon: null
+              fields: {  }
+      display: 'Page Sections'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      hide_display: false
+      fullscreen: true

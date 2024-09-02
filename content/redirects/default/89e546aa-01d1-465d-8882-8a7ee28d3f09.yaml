@@ -1,0 +1,6 @@
+id: 89e546aa-01d1-465d-8882-8a7ee28d3f09
+enabled: true
+source: '/money-finances/enhanced-mileage-claims-payment(.*)'
+destination: /money-finances/mileage-claims-payment$1
+type: '301'
+match_type: regex

@@ -1,0 +1,41 @@
+tree:
+  -
+    id: 5d6b99fb-e3a9-4cbc-badb-0ea1c8f7a805
+    title: 'Health & Wellbeing'
+    url: '/category/Health & Wellbeing'
+  -
+    id: 3c685b72-10b3-47ad-bbe6-fd34a050d552
+    title: Family
+    url: /category/family
+  -
+    id: 838c9ce2-cab4-41e0-976c-bb76746a1009
+    title: 'Holiday & Time Off'
+    url: /category/holiday-time-off
+  -
+    id: 00b6a707-2732-4df8-a7b3-286a6c620877
+    title: 'At Work'
+    url: /category/at-work
+  -
+    id: 4065cf3d-d8fa-4e7c-b4af-99a26c4ee7a0
+    title: Recruitment
+    url: category/recruitment
+  -
+    id: 8a626f75-6b52-4777-9f09-bf4a6ebb1776
+    title: 'Learning & Development'
+    url: /category/learning-development
+  -
+    id: 16dd5fd9-011d-46a8-be86-7abb107696cf
+    title: 'Money & Finances'
+    url: category/money-finances
+  -
+    id: c3a8f361-7c92-4234-8aaa-412d1dee161d
+    title: 'Reward & Recognition'
+    url: category/reward-recognition
+  -
+    id: 4cbbcd0c-8b84-491a-bdf6-734744bf5e0b
+    title: Shopping
+    url: category/shopping
+  -
+    id: c7d10b85-80fc-45a0-a326-78d5bf13e9c8
+    title: Transport
+    url: category/transport

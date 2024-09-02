@@ -1,0 +1,6 @@
+id: c5b9aa88-e2be-4478-bfd4-a5982d27189b
+enabled: true
+source: '/holiday-time-off/early-childbirth-leave(.*)'
+destination: /family/early-childbirth-leave$1
+type: '301'
+match_type: regex

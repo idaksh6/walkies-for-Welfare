@@ -1,0 +1,6 @@
+id: c71d4ade-23cd-4773-acc5-88d4c74f757d
+enabled: true
+source: '/holiday-time-off/maternity-paternity-and-adoption(.*)'
+destination: /family/maternity-paternity-and-adoption$1
+type: '301'
+match_type: regex

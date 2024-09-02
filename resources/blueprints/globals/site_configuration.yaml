@@ -1,0 +1,298 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: site_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Site Title'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: site_logo
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Site Logo'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          max_files: 1
+      -
+        handle: favicon
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Favicon
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: copy_right_text
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: 'Copy Right Text'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: credit_note
+        field:
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          smart_typography: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          inline: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: 'Credit Note'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: google_tag_manager
+        field:
+          theme: material
+          mode: htmlmixed
+          mode_selectable: false
+          indent_type: tabs
+          indent_size: 4
+          key_map: default
+          line_numbers: true
+          line_wrapping: true
+          display: 'Google Tag Manager'
+          type: code
+          icon: code
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: google_tag_manager_noscript
+        field:
+          theme: material
+          mode: htmlmixed
+          mode_selectable: false
+          indent_type: tabs
+          indent_size: 4
+          key_map: default
+          line_numbers: true
+          line_wrapping: true
+          display: 'Google Tag Manager Noscript'
+          type: code
+          icon: code
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: analytics_tracking_code
+        field:
+          theme: material
+          mode: htmlmixed
+          mode_selectable: false
+          indent_type: tabs
+          indent_size: 4
+          key_map: default
+          line_numbers: true
+          line_wrapping: true
+          display: 'Analytics Tracking Code'
+          type: code
+          icon: code
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: facebook_pixel_code
+        field:
+          theme: material
+          mode: htmlmixed
+          mode_selectable: false
+          indent_type: tabs
+          indent_size: 4
+          key_map: default
+          line_numbers: true
+          line_wrapping: true
+          display: 'Facebook Pixel Code'
+          type: code
+          icon: code
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: brand_color
+        field:
+          fields:
+            -
+              handle: denim
+              field:
+                swatches:
+                  - '#005EC6'
+                  - '#003087'
+                  - '#FAE100'
+                  - '#231F20'
+                  - '#FFFFFF'
+                theme: classic
+                lock_opacity: false
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: Denim
+                type: color
+                icon: color
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+            -
+              handle: resolution_blue
+              field:
+                swatches:
+                  - '#005EC6'
+                  - '#003087'
+                  - '#FAE100'
+                  - '#231F20'
+                  - '#FFFFFF'
+                theme: classic
+                lock_opacity: false
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: 'Resolution Blue'
+                type: color
+                icon: color
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+            -
+              handle: aureolin
+              field:
+                swatches:
+                  - '#005EC6'
+                  - '#003087'
+                  - '#FAE100'
+                  - '#231F20'
+                theme: classic
+                lock_opacity: false
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: Aureolin
+                type: color
+                icon: color
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+            -
+              handle: raisin_black
+              field:
+                theme: classic
+                lock_opacity: false
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: 'Raisin black'
+                type: color
+                icon: color
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+                swatches:
+                  - '#005EC6'
+                  - '#003087'
+                  - '#FAE100'
+                  - '#231F20'
+            -
+              handle: white
+              field:
+                swatches:
+                  - '#FFFFFF'
+                theme: classic
+                lock_opacity: false
+                default_color_mode: HEXA
+                color_modes:
+                  - hex
+                display: White
+                type: color
+                icon: color
+                listable: hidden
+                instructions_position: above
+                visibility: visible
+          mode: stacked
+          reorderable: true
+          display: 'Brand Color'
+          type: grid
+          icon: grid
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          max_rows: 1
+          min_rows: 1
+      -
+        import: button

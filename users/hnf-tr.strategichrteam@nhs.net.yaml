@@ -1,0 +1,18 @@
+name: Strategichrteam
+roles:
+  - admin
+id: f5726654-dced-41d5-a2d4-80fc8ddc7ecb
+password_hash: $2y$10$hJQ1ULBGzNIxsUs13rqO/ubcjXaRFGGVPGh73MOae3cPBBJTwE6iq
+preferences:
+  collections:
+    benefits:
+      columns:
+        - title
+        - slug
+        - date
+        - status
+        - category
+        - set_as_featured
+        - button_text
+      per_page: 100
+      after_save: continue_editing

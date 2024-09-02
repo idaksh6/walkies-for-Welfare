@@ -1,0 +1,6 @@
+id: e8a599d0-1ed2-402b-a5f3-52ba3c13d689
+enabled: true
+source: '/special-leave/your-leave-plus-1-1(.*)'
+destination: /family/your-leave-plus-1-1$1
+type: '301'
+match_type: regex

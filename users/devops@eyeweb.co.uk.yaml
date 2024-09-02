@@ -1,0 +1,40 @@
+super: true
+name: 'Devops Eyeweb'
+id: 19933603-60f7-48e3-a4b7-ae65340443c0
+password_hash: $2y$10$5asEs0ugCeg4My1WgFrfhOHSHFpk7H1OpsBKSvv48cihWbAuELpBi
+preferences:
+  taxonomies:
+    benefits:
+      columns:
+        - title
+        - icon
+        - slug
+        - taxonomy
+    category:
+      columns:
+        - title
+        - slug
+        - icon
+        - color
+        - order
+  collections:
+    testimonials:
+      columns:
+        - title
+        - slug
+        - image
+        - designation
+    benefits:
+      columns:
+        - title
+        - slug
+        - sub_title
+        - category
+        - set_as_featured
+      per_page: 100
+  forms:
+    signup_form:
+      columns:
+        - datestamp
+        - name
+        - email

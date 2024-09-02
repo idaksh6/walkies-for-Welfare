@@ -1,0 +1,53 @@
+title: 'Site Configuration'
+data:
+  site_title: 'NHS Humber Teaching'
+  copy_right_text:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: 'COPYRIGHT 2023 HUMBER TEACHING NHS FOUNDATION TRUST'
+  credit_note:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: 'Website by '
+        -
+          type: text
+          marks:
+            -
+              type: link
+              attrs:
+                href: 'https://www.eyeweb.co.uk/'
+                rel: null
+                target: _blank
+                title: null
+          text: Eyeweb
+  google_tag_manager: |-
+    <script async src=https://www.googletagmanager.com/gtag/js?id=G-JDWMMLT11J></script>
+    <script> window.dataLayer = window.dataLayer || []; 
+     function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-JDWMMLT11J'); 
+    </script>
+  analytics_tracking_code: |-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-87HD4JPG8V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-87HD4JPG8V');
+    </script>
+  brand_color:
+    -
+      id: uVyCYuNN
+      denim: '#005EC6'
+      resolution_blue: '#003087'
+      aureolin: '#FAE100'
+      raisin_black: '#231F20'
+      white: '#FFFFFF'
+  button_text: 'Trust Jobs'
+  button_link: 'https://join.humber.nhs.uk/all-jobs/'

@@ -1,0 +1,51 @@
+/* Admin Panel CSS Override */
+body.outside.rad-theme {
+    background: black;
+}
+body .global-header {
+    background: black !important;
+}
+
+.email-login .outside.rad-theme .btn-dropdown-primary, .outside.rad-theme .btn-primary {
+    background: #013088 !important;
+}
+
+.email-login .outside.rad-theme .btn-dropdown-primary, .outside.rad-theme .btn-primary:hover {
+    background: #013088 !important;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('/assets/font-family/galanogrotesque-regular.otf') format('opentype'); 
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('/assets/font-family/galanogrotesque-semibold.otf') format('opentype'); 
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('/assets/font-family/galanogrotesque-extrabold.otf') format('opentype'); 
+    font-weight: 800;
+}
+
+h2 {
+    font-family: 'WC Mano Negra Bta';
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Galano Grotesque';
+}
+
+@media (min-width:1536px) {
+    .container {
+        max-width: 1300px !important;
+    }
+}
+  
